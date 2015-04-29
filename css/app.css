@@ -932,7 +932,7 @@ select {
     left: auto; } }
 
 body {
-  font-family: "Proxima Nova";
+  font-family: "proxima-nova", "Proxima Nova", sans-serif;
   color: #536168;
   font-size: 1.125rem;
   background: #2F3F48; }
@@ -952,7 +952,7 @@ div.center {
 a {
   text-decoration: none;
   color: #E91E63;
-  font-weight: 200; }
+  font-weight: 300; }
 
 h1 {
   font-size: 2.5rem;
@@ -974,7 +974,7 @@ h3 {
 
 p {
   font-size: 1.125rem;
-  font-weight: 200;
+  font-weight: 300;
   color: #536168; }
 
 section {
@@ -1060,7 +1060,7 @@ header nav {
     font-size: 1rem;
     padding: .4rem;
     color: #F2F2F2;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: uppercase; }
 
 header {
@@ -1077,7 +1077,7 @@ header {
     margin-bottom: 1.5rem; }
   header .hackathon-info {
     font-size: 1.25rem;
-    font-weight: 200;
+    font-weight: 300;
     margin-bottom: .5rem; }
     header .hackathon-info .hackathon-name {
       text-transform: uppercase;
@@ -1105,7 +1105,7 @@ header {
     header .header-buttons a {
       display: inline-block;
       font-size: 1.25rem;
-      font-weight: 200;
+      font-weight: 300;
       text-transform: uppercase;
       color: #E91E63;
       border: 1px solid #E91E63;
@@ -1117,7 +1117,7 @@ header {
 
 section.facts span {
   display: block;
-  font-weight: 200; }
+  font-weight: 300; }
 
 section.facts span.title {
   text-transform: uppercase;
@@ -1139,7 +1139,7 @@ section.faq ul.questions {
 section.faq li.questions__question {
   margin-bottom: 3rem; }
   section.faq li.questions__question div.text {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1rem; }
 
 section.faq a.more-questions-link {
@@ -1160,27 +1160,27 @@ section.application {
     border: none;
     padding-left: 1rem;
     font-size: 1rem;
-    font-weight: 200; }
+    font-weight: 300; }
     section.application form input[type="text"]::-webkit-input-placeholder {
       /* WebKit browsers */
-      font-family: "Proxima Nova";
-      font-weight: 200; }
+      font-family: "proxima-nova", "Proxima Nova", sans-serif;
+      font-weight: 300; }
     section.application form input[type="text"]:-moz-placeholder {
       /* WebKit browsers */
-      font-family: "Proxima Nova";
-      font-weight: 200; }
+      font-family: "proxima-nova", "Proxima Nova", sans-serif;
+      font-weight: 300; }
     section.application form input[type="text"]::-moz-placeholder {
       /* WebKit browsers */
-      font-family: "Proxima Nova";
-      font-weight: 200; }
+      font-family: "proxima-nova", "Proxima Nova", sans-serif;
+      font-weight: 300; }
     section.application form input[type="text"]:-ms-input-placeholder {
       /* WebKit browsers */
-      font-family: "Proxima Nova";
-      font-weight: 200; }
+      font-family: "proxima-nova", "Proxima Nova", sans-serif;
+      font-weight: 300; }
   section.application form input[type="submit"] {
     font-size: 1rem;
-    font-weight: 200;
-    font-family: "Proxima Nova";
+    font-weight: 300;
+    font-family: "proxima-nova", "Proxima Nova", sans-serif;
     border: 1px solid #F2F2F2;
     color: #F2F2F2;
     text-transform: uppercase;
@@ -1208,4 +1208,4 @@ footer {
   footer span.copyright {
     display: block;
     color: #F2F2F2;
-    font-weight: 200; }
+    font-weight: 300; }

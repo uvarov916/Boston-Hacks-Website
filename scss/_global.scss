@@ -23,7 +23,7 @@ div.center {
 a {
   text-decoration: none;
   color: $link-light-blue;
-  font-weight: 200;
+  font-weight: $light-font-weight;
 }
 
 h1 {
@@ -50,7 +50,7 @@ h3 {
 
 p {
   font-size: 1.125rem;
-  font-weight: 200;
+  font-weight: $light-font-weight;
   color: $paragraph-color;
 }
 

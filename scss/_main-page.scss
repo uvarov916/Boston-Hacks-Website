@@ -44,7 +44,7 @@ header nav {
     font-size: 1rem;
     padding: .4rem;
     color: $white-color;
-    font-weight: 200;
+    font-weight: $light-font-weight;
     text-transform: uppercase;
   }
 }
@@ -70,7 +70,7 @@ header {
 
   .hackathon-info {
     font-size: 1.25rem;
-    font-weight: 200;
+    font-weight: $light-font-weight;
     margin-bottom: .5rem;
 
     .hackathon-name {
@@ -110,7 +110,7 @@ header {
     a {
       display: inline-block;
       font-size: 1.25rem;
-      font-weight: 200;
+      font-weight: $light-font-weight;
       text-transform: uppercase;
       color: $orange-color;
       border: 1px solid $orange-color;
@@ -134,7 +134,7 @@ header {
 section.facts {
   span {
     display: block;
-    font-weight: 200;
+    font-weight: $light-font-weight;
   }
 
   span.title {
@@ -176,7 +176,7 @@ section.faq {
     margin-bottom: 3rem;
 
     div.text {
-      font-weight: 200;
+      font-weight: $light-font-weight;
       font-size: 1rem;
     }
   }
@@ -214,26 +214,26 @@ section.application {
       border: none;
       padding-left: 1rem;
       font-size: 1rem;
-      font-weight: 200;
+      font-weight: $light-font-weight;
 
       &::-webkit-input-placeholder { /* WebKit browsers */
         font-family: $main-font-stack;
-        font-weight: 200;
+        font-weight: $light-font-weight;
       }
 
       &:-moz-placeholder { /* WebKit browsers */
         font-family: $main-font-stack;
-        font-weight: 200;
+        font-weight: $light-font-weight;
       }
 
       &::-moz-placeholder { /* WebKit browsers */
         font-family: $main-font-stack;
-        font-weight: 200;
+        font-weight: $light-font-weight;
       }
 
       &:-ms-input-placeholder { /* WebKit browsers */
         font-family: $main-font-stack;
-        font-weight: 200;
+        font-weight: $light-font-weight;
       }
 
       
@@ -241,7 +241,7 @@ section.application {
 
     input[type="submit"] {
       font-size: 1rem;
-      font-weight: 200;
+      font-weight: $light-font-weight;
       font-family: $main-font-stack;
       border: 1px solid $white-color;
       color: $white-color;
@@ -301,7 +301,7 @@ footer {
   span.copyright {
     display: block;
     color: $white-color;
-    font-weight: 200;
+    font-weight: $light-font-weight;
   }
 }
 
