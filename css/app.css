@@ -1082,6 +1082,18 @@ header {
     header .hackathon-info .hackathon-name {
       text-transform: uppercase;
       font-weight: 400; }
+    header .hackathon-info .dot {
+      display: inline-block;
+      position: absolute;
+      width: .4rem;
+      height: .4rem;
+      background-color: #F2F2F2;
+      border-radius: .2rem;
+      top: .7rem; }
+    header .hackathon-info .dot-left {
+      right: -1rem; }
+    header .hackathon-info .dot-right {
+      left: -1rem; }
   header .line {
     display: none;
     width: 38rem;
