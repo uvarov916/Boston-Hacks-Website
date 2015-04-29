@@ -933,8 +933,9 @@ select {
 
 body {
   font-family: "Proxima Nova";
-  color: #627078;
-  font-size: 1.125rem; }
+  color: #536168;
+  font-size: 1.125rem;
+  background: #2F3F48; }
 
 .text-left {
   text-align: left; }
@@ -959,7 +960,7 @@ h1 {
   text-transform: uppercase; }
 
 h2, h3 {
-  color: #61737C; }
+  color: #4D616A; }
 
 h2 {
   font-size: 1.25rem;
@@ -974,17 +975,20 @@ h3 {
 p {
   font-size: 1.125rem;
   font-weight: 200;
-  color: #627078; }
+  color: #536168; }
 
 section {
   padding-top: 10rem;
-  padding-bottom: 10rem; }
+  padding-bottom: 10rem;
+  background-color: white; }
 
-div.separator {
-  width: 3rem;
-  height: 1px;
-  background-color: rgba(54, 101, 125, 0.5);
-  margin: 0 auto; }
+section.separator {
+  padding: 0; }
+  section.separator div {
+    width: 3rem;
+    height: 1px;
+    background-color: rgba(54, 101, 125, 0.5);
+    margin: 0 auto; }
 
 .hvr-sweep-to-top {
   display: inline-block;

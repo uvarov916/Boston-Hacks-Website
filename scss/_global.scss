@@ -55,15 +55,20 @@ p {
 }
 
 section {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+  background-color: white;
 }
 
-div.separator {
-  width: 3rem;
-  height: 1px;
-  background-color: rgba(#36657D, .5);
-  margin: 0 auto;
+section.separator {
+  padding: 0;
+
+  div {
+    width: 3rem;
+    height: 1px;
+    background-color: rgba(#36657D, .5);
+    margin: 0 auto;
+  }
 }
 
 
