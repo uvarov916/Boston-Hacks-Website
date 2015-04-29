@@ -933,7 +933,8 @@ select {
 
 body {
   font-family: "Proxima Nova";
-  color: #627078; }
+  color: #627078;
+  font-size: 1.125rem; }
 
 .text-left {
   text-align: left; }
@@ -949,7 +950,7 @@ div.center {
 
 a {
   text-decoration: none;
-  color: #5197C8;
+  color: #E91E63;
   font-weight: 200; }
 
 h1 {
@@ -964,20 +965,20 @@ h2 {
   font-size: 1.25rem;
   text-transform: uppercase;
   font-weight: 600;
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
   text-align: center; }
 
 h3 {
   font-weight: 400; }
 
 p {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 200;
   color: #627078; }
 
 section {
-  padding-top: 6.875rem;
-  padding-bottom: 6.875rem; }
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
 
 div.separator {
   width: 3rem;
@@ -1008,7 +1009,7 @@ div.separator {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #E6A131;
+  background: #E91E63;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -1038,13 +1039,14 @@ header {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: rgba(54, 101, 125, 0.9); }
+    background-color: rgba(47, 63, 72, 0.95); }
 
 header nav {
   margin-top: 2rem; }
   header nav li {
     display: inline-block; }
   header nav li a {
+    font-size: 1rem;
     padding: .4rem;
     color: #F2F2F2;
     font-weight: 200;
@@ -1067,9 +1069,11 @@ header {
     font-weight: 200;
     margin-bottom: .5rem; }
     header .hackathon-info .hackathon-name {
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-weight: 400; }
   header .line {
-    width: 18rem;
+    display: none;
+    width: 38rem;
     height: 1px;
     background-color: #F2F2F2; }
   header .header-buttons {
@@ -1080,8 +1084,8 @@ header {
       font-size: 1.25rem;
       font-weight: 200;
       text-transform: uppercase;
-      color: #E6A131;
-      border: 1px solid #E6A131;
+      color: #E91E63;
+      border: 1px solid #E91E63;
       padding: 0.6rem 4rem; }
       header .header-buttons a:hover {
         color: #F2F2F2; }
@@ -1094,7 +1098,7 @@ section.facts span {
 
 section.facts span.title {
   text-transform: uppercase;
-  color: #E6A131;
+  color: #E91E63;
   text-decoration: underline;
   font-size: 1.125rem;
   margin-bottom: .5rem; }
@@ -1112,14 +1116,15 @@ section.faq ul.questions {
 section.faq li.questions__question {
   margin-bottom: 3rem; }
   section.faq li.questions__question div.text {
-    font-weight: 200; }
+    font-weight: 200;
+    font-size: 1rem; }
 
 section.faq a.more-questions-link {
   display: block;
   margin-top: 1.5rem; }
 
 section.application {
-  background-color: #36657D; }
+  background-color: #2F3F48; }
   section.application h2, section.application p {
     color: #F2F2F2; }
   section.application p {
@@ -1175,7 +1180,7 @@ section.get-in-touch .social-icons {
     height: 2.5rem; }
 
 footer {
-  background-color: #627078;
+  background-color: #2F3F48;
   padding: 1rem 0; }
   footer span.copyright {
     display: block;

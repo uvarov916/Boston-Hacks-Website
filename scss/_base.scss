@@ -1,13 +1,14 @@
 $main-font-stack: 'Proxima Nova';
 $white-color: #F2F2F2;
-$orange-color: #E6A131;
+$orange-color: #E91E63;
 $title-dark-color: #61737C;
 $paragraph-color: #627078;
-$overlay-color: #36657D;
-$link-light-blue: #5197C8;
+$overlay-color: #2F3F48;
+$link-light-blue: $orange-color;
 $footer-color: #627078;
 
 body {
   font-family: $main-font-stack;
   color: $paragraph-color;
+  font-size: 1.125rem;
 }
