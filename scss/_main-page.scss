@@ -22,6 +22,19 @@ header {
 // Navigation
 header nav {
   margin-top: 2rem;
+  margin-bottom: 5rem;
+
+  ul {
+    display: inline-block;
+  }
+
+  ul.social-icons {
+    img {
+      height: 1.4rem;
+      opacity: .6;
+      margin-right: .5rem;
+    }
+  }
 
   li {
     display: inline-block;
@@ -126,7 +139,7 @@ section.photo-block {
 
   img.main-photo {
     display: block;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
   }
 }

@@ -7885,6 +7885,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/facebook-circle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2349,
+		"inputAbbreviatedPath": "\/img\/facebook-circle.png",
+		"outputAbbreviatedPath": "\/img\/facebook-circle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7914,6 +7925,17 @@
 		"initialSize": 737672,
 		"inputAbbreviatedPath": "\/img\/header-background.png",
 		"outputAbbreviatedPath": "\/img\/header-background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram-circle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4023,
+		"inputAbbreviatedPath": "\/img\/instagram-circle.png",
+		"outputAbbreviatedPath": "\/img\/instagram-circle.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7969,6 +7991,17 @@
 		"initialSize": 471511,
 		"inputAbbreviatedPath": "\/img\/photo-block-main.png",
 		"outputAbbreviatedPath": "\/img\/photo-block-main.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/twitter-circle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3835,
+		"inputAbbreviatedPath": "\/img\/twitter-circle.png",
+		"outputAbbreviatedPath": "\/img\/twitter-circle.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

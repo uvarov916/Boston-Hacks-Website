@@ -1042,7 +1042,14 @@ header {
     background-color: rgba(47, 63, 72, 0.95); }
 
 header nav {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin-bottom: 5rem; }
+  header nav ul {
+    display: inline-block; }
+  header nav ul.social-icons img {
+    height: 1.4rem;
+    opacity: .6;
+    margin-right: .5rem; }
   header nav li {
     display: inline-block; }
   header nav li a {
@@ -1107,7 +1114,7 @@ section.photo-block {
   padding: 0; }
   section.photo-block img.main-photo {
     display: block;
-    width: 100%;
+    width: 95%;
     margin: 0 auto; }
 
 section.faq ul.questions {
