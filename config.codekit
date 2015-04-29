@@ -7896,6 +7896,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/photo-block-main.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 471511,
+		"inputAbbreviatedPath": "\/img\/photo-block-main.png",
+		"outputAbbreviatedPath": "\/img\/photo-block-main.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/includes\/header.kit": {
 		"fileType": 2048,
 		"ignore": 1,

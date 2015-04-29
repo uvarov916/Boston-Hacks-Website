@@ -955,13 +955,18 @@ h1 {
   font-weight: 400;
   text-transform: uppercase; }
 
+h2, h3 {
+  color: #61737C; }
+
 h2 {
   font-size: 1.25rem;
-  color: #61737C;
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 5rem;
   text-align: center; }
+
+h3 {
+  font-weight: 400; }
 
 p {
   font-size: 1rem;
@@ -1091,3 +1096,18 @@ section.facts span.title {
   text-decoration: underline;
   font-size: 1.125rem;
   margin-bottom: .5rem; }
+
+section.photo-block {
+  padding: 0; }
+  section.photo-block img.main-photo {
+    display: block;
+    width: 40rem;
+    margin: 0 auto; }
+
+section.faq ul.questions {
+  list-style: none; }
+
+section.faq li.questions__question {
+  margin-bottom: 3rem; }
+  section.faq li.questions__question div.text {
+    font-weight: 200; }
