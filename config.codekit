@@ -7874,6 +7874,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/builds-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24069,
+		"inputAbbreviatedPath": "\/img\/builds-logo.png",
+		"outputAbbreviatedPath": "\/img\/builds-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hackathon-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7892,6 +7903,39 @@
 		"initialSize": 737672,
 		"inputAbbreviatedPath": "\/img\/header-background.png",
 		"outputAbbreviatedPath": "\/img\/header-background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/makebu-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11868,
+		"inputAbbreviatedPath": "\/img\/makebu-logo.png",
+		"outputAbbreviatedPath": "\/img\/makebu-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mlh-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16424,
+		"inputAbbreviatedPath": "\/img\/mlh-logo.png",
+		"outputAbbreviatedPath": "\/img\/mlh-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/openweb-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26153,
+		"inputAbbreviatedPath": "\/img\/openweb-logo.png",
+		"outputAbbreviatedPath": "\/img\/openweb-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
