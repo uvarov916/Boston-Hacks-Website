@@ -17,6 +17,41 @@ div.center {
 }
 
 // ------------------------------------
+// Global styles
+// ------------------------------------
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.25rem;
+  color: $title-dark-color;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 200;
+  color: $paragraph-color;
+}
+
+section {
+  padding-top: 6.875rem;
+  padding-bottom: 6.875rem;
+}
+
+
+// ------------------------------------
 // Animations
 // ------------------------------------
 
@@ -61,18 +96,4 @@ div.center {
 .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
-}
-
-// ------------------------------------
-// Global styles
-// ------------------------------------
-
-a {
-  text-decoration: none;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: 400;
-  text-transform: uppercase;
 }
