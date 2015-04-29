@@ -1052,13 +1052,13 @@ header nav {
     display: inline-block; }
   header nav ul.social-icons img {
     height: 1.4rem;
-    opacity: .6;
-    margin-right: .5rem; }
+    opacity: .6; }
   header nav li {
     display: inline-block; }
   header nav li a {
-    font-size: 1rem;
-    padding: .4rem;
+    font-size: .9rem;
+    padding: .7rem;
+    font-weight: 400;
     color: #F2F2F2;
     font-weight: 300;
     text-transform: uppercase; }
