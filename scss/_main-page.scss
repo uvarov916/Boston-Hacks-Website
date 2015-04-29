@@ -1,0 +1,110 @@
+// ------------------------------------
+// Header
+// ------------------------------------
+
+// Background
+header {
+  position: relative;
+  width: 100%;
+  background: url('../img/header-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  .overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(#36657D, 0.9);
+  }
+}
+
+// Navigation
+header nav {
+  margin-top: 2rem;
+
+  li {
+    display: inline-block;
+  }
+
+  li a {
+    padding: .4rem;
+    color: $white-color;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+}
+
+// All elements inside header section
+header {
+  color: $white-color;
+
+  .header-content {
+    padding: 6rem 0 10rem;
+  }
+
+  .hackathon-logo {
+    background: url('../img/hackathon-logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 3.75rem;
+    height: 4.8125rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hackathon-info {
+    font-size: 1.25rem;
+    font-weight: 200;
+    margin-bottom: .5rem;
+
+    .hackathon-name {
+      text-transform: uppercase;
+    }
+  }
+
+  .line {
+    width: 18rem;
+    height: 1px;
+    background-color: $white-color;
+  }
+
+  .header-buttons {
+    display: inline-block;
+    margin-top: 2rem;
+
+    a {
+      display: inline-block;
+      font-size: 1.25rem;
+      font-weight: 200;
+      text-transform: uppercase;
+      color: $orange-color;
+      border: 1px solid $orange-color;
+      padding: .6rem 4rem;
+
+      &:hover {
+        color: $white-color;
+      }
+    }
+
+    a:last-child {
+      margin-left: 1rem;
+    }
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
