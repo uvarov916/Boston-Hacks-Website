@@ -932,7 +932,8 @@ select {
     left: auto; } }
 
 body {
-  font-family: "Proxima Nova"; }
+  font-family: "Proxima Nova";
+  color: #627078; }
 
 .text-left {
   text-align: left; }
@@ -970,6 +971,12 @@ p {
 section {
   padding-top: 6.875rem;
   padding-bottom: 6.875rem; }
+
+div.separator {
+  width: 3rem;
+  height: 1px;
+  background-color: rgba(54, 101, 125, 0.5);
+  margin: 0 auto; }
 
 .hvr-sweep-to-top {
   display: inline-block;
@@ -1073,3 +1080,14 @@ header {
         color: #F2F2F2; }
     header .header-buttons a:last-child {
       margin-left: 1rem; }
+
+section.facts span {
+  display: block;
+  font-weight: 200; }
+
+section.facts span.title {
+  text-transform: uppercase;
+  color: #E6A131;
+  text-decoration: underline;
+  font-size: 1.125rem;
+  margin-bottom: .5rem; }

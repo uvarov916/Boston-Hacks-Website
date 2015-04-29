@@ -93,6 +93,27 @@ header {
   }
 }
 
+// ------------------------------------
+// Facts
+// ------------------------------------
+
+section.facts {
+  span {
+    display: block;
+    font-weight: 200;
+  }
+
+  span.title {
+    text-transform: uppercase;
+    color: $orange-color;
+    text-decoration: underline;
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
+  }
+
+}
+
+
 
 
 
