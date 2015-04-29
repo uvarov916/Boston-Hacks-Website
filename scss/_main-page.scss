@@ -237,7 +237,38 @@ section.organizers {
 }
 
 
+// ------------------------------------
+// Get in touch
+// ------------------------------------
 
+section.get-in-touch {
+  
+  .social-icons {
+    margin-top: 2rem;
+
+    a > img {
+      display: block;
+      margin: 0 auto;
+      height: 2.5rem;
+    }
+  }
+}
+
+
+// ------------------------------------
+// Footer
+// ------------------------------------
+
+footer {
+  background-color: $footer-color;
+  padding: 1rem 0;
+
+  span.copyright {
+    display: block;
+    color: $white-color;
+    font-weight: 200;
+  }
+}
 
 
 

@@ -1166,3 +1166,18 @@ section.organizers {
     margin: 0 auto; }
     section.organizers div.organizer-logo img.builds-logo {
       max-height: 4rem; }
+
+section.get-in-touch .social-icons {
+  margin-top: 2rem; }
+  section.get-in-touch .social-icons a > img {
+    display: block;
+    margin: 0 auto;
+    height: 2.5rem; }
+
+footer {
+  background-color: #627078;
+  padding: 1rem 0; }
+  footer span.copyright {
+    display: block;
+    color: #F2F2F2;
+    font-weight: 200; }
