@@ -123,10 +123,10 @@ header {
     a {
       display: inline-block;
       font-size: 1.25rem;
-      font-weight: $light-font-weight;
+      font-weight: 400;
       text-transform: uppercase;
       color: $orange-color;
-      border: 1px solid $orange-color;
+      border: 2px solid $orange-color;
       padding: .6rem 4rem;
 
       &:hover {
@@ -320,8 +320,38 @@ footer {
 
 
 @media only screen and (max-width: 43em) {
-  header .header-content .hackathon-info div {
-    text-align: center;
+  header .overlay {
+    .header-content {
+      padding: 4rem 0;
+    }
+
+    .hackathon-info .hackathon-name {
+      font-size: 2rem;
+      font-weight: $light-font-weight;
+      margin-bottom: 1rem;
+    }
+
+    .header-buttons div {
+      width: 80%;
+      margin-bottom: 1rem;
+
+      a {
+        width: 100%;
+      }
+
+      a:last-child {
+        margin-left: 0;
+      }
+    }
+
+  }
+
+  section {
+    padding: 5rem 0;
+  }
+
+  h2 {
+    margin-bottom: 2rem;
   }
 }
 

@@ -1485,10 +1485,10 @@ header {
     header .header-buttons a {
       display: inline-block;
       font-size: 1.25rem;
-      font-weight: 300;
+      font-weight: 400;
       text-transform: uppercase;
       color: #E91E63;
-      border: 1px solid #E91E63;
+      border: 2px solid #E91E63;
       padding: 0.6rem 4rem; }
       header .header-buttons a:hover {
         color: #F2F2F2; }
@@ -1591,5 +1591,20 @@ footer {
     font-weight: 300; }
 
 @media only screen and (max-width: 43em) {
-  header .header-content .hackathon-info div {
-    text-align: center; } }
+  header .overlay .header-content {
+    padding: 4rem 0; }
+  header .overlay .hackathon-info .hackathon-name {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem; }
+  header .overlay .header-buttons div {
+    width: 80%;
+    margin-bottom: 1rem; }
+    header .overlay .header-buttons div a {
+      width: 100%; }
+    header .overlay .header-buttons div a:last-child {
+      margin-left: 0; }
+  section {
+    padding: 5rem 0; }
+  h2 {
+    margin-bottom: 2rem; } }
