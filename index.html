@@ -18,17 +18,17 @@
       <div class="columns small-12 text-center">     
         <nav>
           <ul class="social-icons text-left columns medium-4 small-12">
-            <li><a href="#"><img src="img/twitter.png"></a></li>
-            <li><a href="#"><img src="img/instagram.png"></a></li>
-            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><img src="img/twitter.png"></a></li>
+            <li><a href="https://instagram.com/" target="_blank"><img src="img/instagram.png"></a></li>
+            <li><a href="https://facebook.com/" target="_blank"><img src="img/facebook.png"></a></li>
           </ul>
 
-          <ul class="text-right columns medium-8">
-            <li class="active"><a href="#">About</a></li>
-            <li><a href="#">Schedule</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Sponsors</a></li>
-            <li><a href="#">Attend</a></li>
+          <ul class="text-right columns medium-8" data-magellan-expedition data-options="destination_threshold:-60;">
+            <li data-magellan-arrival="about"><a href="#about">About</a></li>
+            <li data-magellan-arrival="faq"><a href="#faq">FAQ</a></li>
+            <li data-magellan-arrival="sponsors"><a href="#sponsors">Sponsors</a></li>
+            <li data-magellan-arrival="application"><a href="#application">Attend</a></li>
+            <li data-magellan-arrival="get-in-touch"><a href="#get-in-touch">Get in touch</a></li>
           </ul>
         </nav>
 
@@ -46,16 +46,16 @@
           <div class="line center"></div>
 
           <h1>Wanna build something amazing?</h1>
-          <div class="header-buttons center">
-            <a href="#" class="hvr-sweep-to-top">Attend</a>
-            <a href="#" class="hvr-sweep-to-top">Sponsor</a>
+          <div class="header-buttons center" data-magellan-expedition data-options="destination_threshold:-100;">
+            <div style="display: inline-block;" data-magellan-arrival="application"><a href="#application" class="hvr-sweep-to-top">Attend</a></div>
+            <div style="display: inline-block;" data-magellan-arrival="sponsors"><a data-magellan-arrival="sponsors" href="#sponsors" class="hvr-sweep-to-top">Sponsor</a></div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </header>
-    <section class="about">
+    <section id="about">
       <div class="row">
         <div class="columns small-12">
           <h2>Hackathon, wtf?</h2>
@@ -68,7 +68,7 @@
       <div></div>
     </section>
     
-    <section class="facts">
+    <section id="facts">
       <div class="row">
         <div class="columns medium-2 medium-offset-1 small-12 text-left">
           <span class="title">Who</span>
@@ -89,11 +89,11 @@
       </div>
     </section>
 
-    <section class="photo-block">
+    <section id="photo-block">
       <img class="main-photo" src="img/photo-block-main.png">
     </section>
 
-    <section class="faq">
+    <section id="faq">
       <div class="row">
         <div class="columns small-12">
           <h2>FAQ</h2>
@@ -131,7 +131,7 @@
       </div>
     </section>
 
-    <section class="application">
+    <section id="application">
       <div class="row">
         <div class="columns small-12">
           <h2>Registration</h2>
@@ -154,7 +154,7 @@
       </div>
     </section>
 
-    <section class="sponsors">
+    <section id="sponsors">
       <div class="row">
         <div class="columns small-12 text-center">
           <h2>Sponsors</h2>
@@ -163,7 +163,7 @@
       </div>
     </section>
 
-    <section class="organizers">
+    <section id="organizers">
       <div class="row">
         <div class="columns small-12 text-center">
           <h2>Organized by</h2>
@@ -189,7 +189,7 @@
       <div></div>
     </section>
 
-    <section class="get-in-touch">
+    <section id="get-in-touch">
       <div class="row">
         <div class="columns small-12 text-center">
           <h2>Get in touch with us</h2>
@@ -219,5 +219,9 @@
       <span class="copyright text-center">&copy; 2015 Make Boston</span>
     </footer>
 
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>

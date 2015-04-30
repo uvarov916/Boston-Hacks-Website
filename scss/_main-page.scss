@@ -33,6 +33,12 @@ header nav {
       height: 1.4rem;
       opacity: .6;
       //margin-right: .5rem;
+      -webkit-transition: .2s ease-in-out;
+      transition: .2s ease-in-out;
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 
@@ -47,6 +53,12 @@ header nav {
     color: $white-color;
     font-weight: $light-font-weight;
     text-transform: uppercase;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+
+    &:hover {
+      color: $orange-color;
+    }
   }
 }
 
@@ -132,7 +144,7 @@ header {
 // Facts
 // ------------------------------------
 
-section.facts {
+section#facts {
   span {
     display: block;
     font-weight: $light-font-weight;
@@ -153,7 +165,7 @@ section.facts {
 // Photo Block
 // ------------------------------------
 
-section.photo-block {
+section#photo-block {
   padding: 0;
 
   img.main-photo {
@@ -168,7 +180,7 @@ section.photo-block {
 // FAQ
 // ------------------------------------
 
-section.faq {
+section#faq {
   ul.questions {
     list-style: none;
   }
@@ -193,7 +205,7 @@ section.faq {
 // Application
 // ------------------------------------
 
-section.application {
+section#application {
   background-color: $overlay-color;
 
   h2, p {
@@ -258,7 +270,7 @@ section.application {
 // Organizers
 // ------------------------------------
 
-section.organizers {
+section#organizers {
   padding-top: 0;
 
   div.organizer-logo img {
@@ -277,7 +289,7 @@ section.organizers {
 // Get in touch
 // ------------------------------------
 
-section.get-in-touch {
+section#get-in-touch {
   
   .social-icons {
     margin-top: 2rem;
