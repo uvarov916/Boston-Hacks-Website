@@ -1350,8 +1350,8 @@ p {
   color: #536168; }
 
 section {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
   background-color: white; }
 
 section.separator {
@@ -1516,9 +1516,9 @@ section#photo-block {
 section#faq ul.questions {
   list-style: none; }
 
-section#faq li.questions__question {
+section#faq .questions__question {
   margin-bottom: 3rem; }
-  section#faq li.questions__question div.text {
+  section#faq .questions__question div.text {
     font-weight: 300;
     font-size: 1rem; }
 
@@ -1535,7 +1535,8 @@ section#application {
   section#application form input {
     display: block;
     width: 100%;
-    height: 2.5rem; }
+    height: 2.5rem;
+    border-radius: 0; }
   section#application form input[type="text"] {
     border: none;
     padding-left: 1rem;
@@ -1587,7 +1588,7 @@ footer {
   padding: 1rem 0; }
   footer span.copyright {
     display: block;
-    color: #F2F2F2;
+    color: rgba(242, 242, 242, 0.5);
     font-weight: 300; }
 
 @media only screen and (max-width: 43em) {
@@ -1604,7 +1605,14 @@ footer {
       width: 100%; }
     header .overlay .header-buttons div a:last-child {
       margin-left: 0; }
+  section#facts .facts--fact {
+    text-align: center;
+    margin-bottom: 2rem; }
   section {
     padding: 5rem 0; }
   h2 {
-    margin-bottom: 2rem; } }
+    margin-bottom: 5rem; }
+  section#organizers {
+    padding-bottom: 1rem; }
+    section#organizers .organizer-logo {
+      margin-bottom: 5rem; } }
