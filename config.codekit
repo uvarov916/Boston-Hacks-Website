@@ -7907,6 +7907,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12172,
+		"inputAbbreviatedPath": "\/img\/favicon.png",
+		"outputAbbreviatedPath": "\/img\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hackathon-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
