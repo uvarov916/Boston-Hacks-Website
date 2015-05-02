@@ -51,7 +51,7 @@ header nav {
     padding: .7rem;
     font-weight: 400;
     color: $white-color;
-    font-weight: $light-font-weight;
+    font-weight: $font-weight--light;
     text-transform: uppercase;
     -webkit-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
@@ -83,7 +83,7 @@ header {
 
   .hackathon-info {
     font-size: 1.25rem;
-    font-weight: $light-font-weight;
+    font-weight: $font-weight--light;
     margin-bottom: .5rem;
 
     .hackathon-name {
@@ -147,7 +147,7 @@ header {
 section#facts {
   span {
     display: block;
-    font-weight: $light-font-weight;
+    font-weight: $font-weight--light;
   }
 
   span.title {
@@ -189,7 +189,7 @@ section#faq {
     margin-bottom: 3rem;
 
     div.text {
-      font-weight: $light-font-weight;
+      font-weight: $font-weight--light;
       font-size: 1rem;
     }
   }
@@ -228,26 +228,26 @@ section#application {
       border: none;
       padding-left: 1rem;
       font-size: 1rem;
-      font-weight: $light-font-weight;
+      font-weight: $font-weight--light;
 
       &::-webkit-input-placeholder { /* WebKit browsers */
-        font-family: $main-font-stack;
-        font-weight: $light-font-weight;
+        font-family: $font-stack--primary;
+        font-weight: $font-weight--light;
       }
 
       &:-moz-placeholder { /* WebKit browsers */
-        font-family: $main-font-stack;
-        font-weight: $light-font-weight;
+        font-family: $font-stack--primary;
+        font-weight: $font-weight--light;
       }
 
       &::-moz-placeholder { /* WebKit browsers */
-        font-family: $main-font-stack;
-        font-weight: $light-font-weight;
+        font-family: $font-stack--primary;
+        font-weight: $font-weight--light;
       }
 
       &:-ms-input-placeholder { /* WebKit browsers */
-        font-family: $main-font-stack;
-        font-weight: $light-font-weight;
+        font-family: $font-stack--primary;
+        font-weight: $font-weight--light;
       }
 
       
@@ -255,8 +255,8 @@ section#application {
 
     input[type="submit"] {
       font-size: 1rem;
-      font-weight: $light-font-weight;
-      font-family: $main-font-stack;
+      font-weight: $font-weight--light;
+      font-family: $font-stack--primary;
       border: 1px solid $white-color;
       color: $white-color;
       text-transform: uppercase;
@@ -315,7 +315,7 @@ footer {
   span.copyright {
     display: block;
     color: rgba($white-color, .5);
-    font-weight: $light-font-weight;
+    font-weight: $font-weight--light;
   }
 }
 
@@ -328,7 +328,7 @@ footer {
 
     .hackathon-info .hackathon-name {
       font-size: 2rem;
-      font-weight: $light-font-weight;
+      font-weight: $font-weight--light;
       margin-bottom: 1rem;
     }
 

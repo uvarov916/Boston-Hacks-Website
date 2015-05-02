@@ -1,4 +1,59 @@
-$main-font-stack: "proxima-nova", "Proxima Nova", sans-serif;
+// ------------------------------------
+// Fonts
+// ------------------------------------
+
+$font-stack--primary: "proxima-nova", "Proxima Nova", "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+
+$font-weight--light: 300;
+$font-weight--normal: 400;
+$font-weight--bold: 600;
+
+
+// ------------------------------------
+// Colors
+// ------------------------------------
+
+$color__white-replacement: #F2F2F2;
+
+$color__main-theme--primary: #2F3F48; // dark blue (background)
+$color__main-theme--secondary: #E91E63; // pink
+
+$color__text-color--primary: #536168; // for paragraphs
+$color__text-color--headline: #4D616A; // for headlines
+
+
+// ------------------------------------
+// Setup
+// ------------------------------------
+
+// Type (general)
+$base__font-weight: $font-weight--light; // default font-weight
+$base__font-size: 1.125rem; // default font-size
+$base__text-color: $color__text-color--primary; // default text color
+$base__link-color: $color__main-theme--secondary; // default link color
+
+// Headlines
+$base__h1--font-size: 2.5rem;
+$base__h2--font-size: 1.25rem;
+$base__h3--font-size: $base__h2--font-size;
+$base__h2--margin-bottom: 6rem;
+
+// Background colors
+$base__background-color--bright: white;
+$base__background-color--dark: $color__main-theme--primary;
+
+// Sections
+$base__section--padding-top: 9rem;
+$base__section--padding-bottom: $base__section--padding-top;
+
+
+
+
+
+// ------------------------------------
+// Old shit (not yet replaced in _main-page.scss)
+// ------------------------------------
+
 $white-color: #F2F2F2;
 $orange-color: #E91E63;
 $title-dark-color: #4D616A;
@@ -7,11 +62,3 @@ $overlay-color: #2F3F48;
 $link-light-blue: $orange-color;
 $footer-color: #627078;
 $section-padding: 9rem;
-$light-font-weight: 300;
-
-body {
-  font-family: $main-font-stack;
-  color: $paragraph-color;
-  font-size: 1.125rem;
-  background: $overlay-color;
-}

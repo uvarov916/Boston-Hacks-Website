@@ -1304,10 +1304,50 @@ th.hide-for-touch {
     display: table-cell !important; } }
 
 body {
-  font-family: "proxima-nova", "Proxima Nova", sans-serif;
+  font-family: "proxima-nova", "Proxima Nova", "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+  font-weight: 300;
   color: #536168;
   font-size: 1.125rem;
-  background: #2F3F48; }
+  background-color: #2F3F48; }
+
+a {
+  text-decoration: none;
+  color: #E91E63; }
+
+h1, h2 {
+  text-transform: uppercase;
+  text-align: center; }
+
+h1, h3 {
+  font-weight: 400; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2, h3 {
+  color: #4D616A; }
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 6rem; }
+
+h3 {
+  font-size: 1.25rem; }
+
+section {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  background-color: white; }
+
+div.separator {
+  padding: 0;
+  background-color: white; }
+  div.separator div {
+    width: 3rem;
+    height: 1px;
+    background-color: rgba(83, 97, 104, 0.5);
+    margin: 0 auto; }
 
 .text-left {
   text-align: left; }
@@ -1318,49 +1358,8 @@ body {
 .text-right {
   text-align: right; }
 
-div.center {
+.center {
   margin: 0 auto; }
-
-a {
-  text-decoration: none;
-  color: #E91E63;
-  font-weight: 300; }
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: 400;
-  text-transform: uppercase; }
-
-h2, h3 {
-  color: #4D616A; }
-
-h2 {
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin-bottom: 6rem;
-  text-align: center; }
-
-h3 {
-  font-weight: 400; }
-
-p {
-  font-size: 1.125rem;
-  font-weight: 300;
-  color: #536168; }
-
-section {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
-  background-color: white; }
-
-section.separator {
-  padding: 0; }
-  section.separator div {
-    width: 3rem;
-    height: 1px;
-    background-color: rgba(54, 101, 125, 0.5);
-    margin: 0 auto; }
 
 .hvr-sweep-to-top {
   display: inline-block;
@@ -1425,8 +1424,8 @@ header nav {
   header nav ul.social-icons img {
     height: 1.4rem;
     opacity: .6;
-    -webkit-transition: 0.2s ease-in-out;
-    transition: 0.2s ease-in-out; }
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out; }
     header nav ul.social-icons img:hover {
       opacity: 1; }
   header nav li {
@@ -1438,8 +1437,8 @@ header nav {
     color: #F2F2F2;
     font-weight: 300;
     text-transform: uppercase;
-    -webkit-transition: 0.2s ease-in-out;
-    transition: 0.2s ease-in-out; }
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out; }
     header nav li a:hover {
       color: #E91E63; }
 
@@ -1544,24 +1543,24 @@ section#application {
     font-weight: 300; }
     section#application form input[type="text"]::-webkit-input-placeholder {
       /* WebKit browsers */
-      font-family: "proxima-nova", "Proxima Nova", sans-serif;
+      font-family: "proxima-nova", "Proxima Nova", "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
       font-weight: 300; }
     section#application form input[type="text"]:-moz-placeholder {
       /* WebKit browsers */
-      font-family: "proxima-nova", "Proxima Nova", sans-serif;
+      font-family: "proxima-nova", "Proxima Nova", "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
       font-weight: 300; }
     section#application form input[type="text"]::-moz-placeholder {
       /* WebKit browsers */
-      font-family: "proxima-nova", "Proxima Nova", sans-serif;
+      font-family: "proxima-nova", "Proxima Nova", "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
       font-weight: 300; }
     section#application form input[type="text"]:-ms-input-placeholder {
       /* WebKit browsers */
-      font-family: "proxima-nova", "Proxima Nova", sans-serif;
+      font-family: "proxima-nova", "Proxima Nova", "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
       font-weight: 300; }
   section#application form input[type="submit"] {
     font-size: 1rem;
     font-weight: 300;
-    font-family: "proxima-nova", "Proxima Nova", sans-serif;
+    font-family: "proxima-nova", "Proxima Nova", "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
     border: 1px solid #F2F2F2;
     color: #F2F2F2;
     text-transform: uppercase;
