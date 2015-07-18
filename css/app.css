@@ -1613,5 +1613,13 @@ footer {
     margin-bottom: 5rem; }
   section#organizers {
     padding-bottom: 1rem; }
-    section#organizers .organizer-logo {
-      margin-bottom: 5rem; } }
+  section#organizers .organizer-logo {
+      margin-bottom: 5rem; } 
+  section#sponsors .organizer-logo {
+    width:100%;
+    text-align:center;
+  }
+  section#sponsors .google-logo {
+    width:25%;
+  }
+	
