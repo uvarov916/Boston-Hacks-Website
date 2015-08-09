@@ -1613,11 +1613,4 @@ footer {
     margin-bottom: 5rem; }
   section#organizers {
     padding-bottom: 1rem; }
-  /*Leaving a comment where Andrew grotesquely added CSS instead of editing the SCSS.*/
-  section#organizers.organizer-logo {
-      margin-bottom: 5rem; } 
-  section#sponsors.organizer-logo {
-    width:100%;
-    text-align:center;
-  }
-	
+}
