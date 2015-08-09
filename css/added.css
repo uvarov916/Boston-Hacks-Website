@@ -203,13 +203,14 @@ header .hackathon-logo {
 
 @keyframes float {
   50% {
-     transform: translate(0, 15px);
+     transform: translate(0, 10px);
   }
 }
 
 .gshadow{
   background:#F2F2F2;
   margin: 0 auto;
+  margin-top: -0.5rem;
   width: 80px;
   height: 10px;
   opacity: 0.3;
