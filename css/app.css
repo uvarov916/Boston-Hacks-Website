@@ -1589,6 +1589,9 @@ footer {
     font-weight: 300; }
 
 @media only screen and (max-width: 43em) {
+  section{
+    padding-top: 9rem;
+  }
   header .overlay .header-content {
     padding: 4rem 0; }
   header .overlay .hackathon-info .hackathon-name {
@@ -1609,6 +1612,4 @@ footer {
     padding: 5rem 0; }
   h2 {
     margin-bottom: 5rem; }
-  section#organizers {
-    padding-bottom: 1rem; }
 }
