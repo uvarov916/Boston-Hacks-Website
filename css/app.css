@@ -1566,8 +1566,6 @@ section#application {
     text-transform: uppercase;
     background: none; }
 
-section#organizers {
-  padding-top: 0; }
   section#organizers div.organizer-logo img {
     display: block;
     max-height: 5rem;
