@@ -1,9 +1,13 @@
-/* Any CSS added different from Ivan's main template */
+/* Separation of CSS from Ivan's main SCSS design for isolation. 
+ * The file contains any CSS added different from Ivan's main template. 
+ */
 
+/* Prevent horizontal scrolling */
 html{
 	overflow-x: hidden;
 }
 
+/* Section facts' changes to add pinkish background color and white text */
 section#facts{
 	background-color: #E91E63;
 }
@@ -16,6 +20,9 @@ section#facts span.title {
   color: white;
 }
 
+/* Additions to add cool slant on the design for facts section and
+ * application section.
+ */ 
 section#facts .slant.top {
 	margin-top: -12.5rem;
 }
@@ -66,6 +73,7 @@ section#application .slant {
     z-index: 1;
 }
 
+/* Added css for sponsor images section */
 section#sponsors div.company-logo img {
 	display: block;
 	max-height: 5rem;
@@ -100,10 +108,12 @@ section#organizers {
   }
 }
 
+/* Re-coloring the heart to pinkish color */
 #heart{
 	color: #E91E63;
 }
 
+/* Changing the animation to Mailchimp form to hover and glow pinkish color. */
 section#application form input[type="email"] { 
 	font-family: "proxima-nova", "Proxima Nova", "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
 	font-weight: 300;
@@ -117,7 +127,6 @@ section#application form input[type="submit"]:hover, section#application form in
 }
 
 /* Boo animation */
-
 .boo {
   position: relative;
   left: 0;
@@ -199,6 +208,7 @@ section#application form input[type="submit"]:hover, section#application form in
   }
 }
 
+/* Animation and shadow effect to Boston Hacks logo. */
 header .hackathon-logo {
 	margin-top: -1rem;
 	animation: float 3s ease-out infinite;
@@ -220,15 +230,3 @@ header .hackathon-logo {
   animation: floatghosts 1s infinite alternate;
   border-radius: 100% ;
 }
-
-/*
-@keyframes floatghosts {
-    from {
-      opacity:0.3
-    }
-    to {
-      opacity:0.1
-    }
-}
-*/
-
