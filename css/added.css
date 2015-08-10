@@ -79,6 +79,9 @@ section#organizers {
 
 /*Leaving a comment where Andrew grotesquely added CSS instead of editing the SCSS.*/
 @media only screen and (max-width: 43em) {
+  body, html { 
+  	overflow-x:hidden; 
+  }
   section#sponsors div.company-logo img{
       padding-bottom: 1.5rem; }
   section#organizers div.organizer-logo img{
