@@ -94,20 +94,13 @@ section#organizers {
       padding-bottom: 1.5rem; }
   section#organizers div.organizer-logo img{
 	  padding-bottom: 1.5rem; }
-  section#facts .slant.top {
-	margin-top: -7rem;
-  }
-  section#facts .slant.bottom {
-	margin-top: 3rem;
-  }
-  section#application .slant {
+  section#facts .slant {
+  	width: 100%;
   	display: none;
   }
-  section#application .slant.top {
-	margin-top: -7rem;
-  }
-  section#application .slant.bottom {
-	margin-top: 3rem;
+  section#application .slant {
+  	width: 100%;
+  	display: none;
   }
 }
 
