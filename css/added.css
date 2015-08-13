@@ -100,6 +100,9 @@ section#organizers {
   section#facts .slant.bottom {
 	margin-top: 3rem;
   }
+  section#application .slant {
+  	display: none;
+  }
   section#application .slant.top {
 	margin-top: -7rem;
   }
