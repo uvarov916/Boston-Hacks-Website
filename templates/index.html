@@ -30,6 +30,10 @@
     <meta property="og:type" content="website">
     
     <!-- <script src="bower_components/modernizr/modernizr.js"></script> -->
+    <script type="text/javascript" src="{{ url_for('static', filename='bower_components/modernizr/modernizr.js') }}"></script> 
+
+    <!--<script src="bower_components/modernizr/modernizr.js"></script>-->
+
     <!-- TypeKit -->
     <script src="//use.typekit.net/kvl0hgw.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
@@ -226,18 +230,9 @@
 
         <div class ="company-logo columns small-6 medium-6" style="margin-bottom: 2.5rem;">
           <a target = "_blank" href="http://microsoft.com"><img class="microsoft-logo" src="{{ url_for('static', filename='img/microsoft_logo.png') }}"></a>
+	</div>
         <div class ="company-logo columns small-6 medium-6" style="margin-bottom: 2.5rem;">
           <a target = "_blank" href="https://www.capitalone.com"><img class="capitalone-logo" src="{{ url_for('static', filename='img/capitalone_logo.png') }}"></a>
-        </div>
-
-        <div class ="company-logo columns small-6 medium-4">
-          <a target = "_blank" href="http://kayak.com"><img class="kayak-logo" src="img/kayak_logo.png" height="25%"></a>
-        </div>
-        <div class="company-logo columns small-6 medium-4">
-          <a target = "_blank" href="http://twilio.com"><img class="twilio-logo" src="img/twilio_logo.png" height="400px"></a>
-        </div>
-        <div class="company-logo columns small-6 medium-4">
-          <a target = "_blank" href="http://google.com"><img class="google-logo" src="img/google_logo.png" height="400px"></a>
         </div>
 
         <div class ="company-logo columns small-6 medium-4">
@@ -308,11 +303,17 @@
     <footer>
       <span class="copyright text-center">Made with <span id="heart">&hearts;</span> by the Boston Hacks Team.</span>
     </footer>
+<<<<<<< HEAD
 
 <!--// <script src="bower_components/jquery/dist/jquery.min.js"></script>
     // <script src="bower_components/foundation/js/foundation.min.js"></script>
     // <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
     // <script src="js/app.js"></script> -->
+
+    <script type="text/javascript" src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script> 
+    <script type="text/javascript" src="{{ url_for('static', filename='bower_components/foundation/js/foundation.min.js') }}"></script> 
+    <script type="text/javascript" src="{{ url_for('static', filename='bower_components/foundation/js/foundation/foundation.magellan.js') }}"></script> 
+    <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script> 
 
     <!-- Google Analytics script -->
     <script>
