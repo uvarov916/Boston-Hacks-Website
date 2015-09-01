@@ -1644,8 +1644,7 @@ textarea:focus {
     font-family: "proxima-nova", "Proxima Nova", "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
     border: 1px solid #F2F2F2;
     color: #F2F2F2;
-    text-transform: uppercase;
-    background: #E91E63; }
+    background: #E91E63;
 }
 
 #thanksOpacity {
