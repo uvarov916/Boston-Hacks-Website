@@ -11,12 +11,23 @@ You'll need to have the following items installed before continuing.
   * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
   * [Gulp](http://gulpjs.com/)
   * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
+  * Get pip
+  * [Flask](http://flask.pocoo.org/docs/0.10/) Run `pip install Flask`
+  * `pip install requests`
+  * Add MLH credentials, client_id and client_secret, to creds_example.py
+  * `cp creds_example.py creds.py`
 
-## Quickstart
+## How to start
 
 ```bash
 git clone git@github.com:uvarovis/Boston-Hacks-Website.git
 npm install && bower install
+curl -O https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+pip install Flask
+pip install requests
+# Add MLH credentials to creds_example.py
+cp creds_example.py creds.py
 ```
 
 While you're working on your project, run:
