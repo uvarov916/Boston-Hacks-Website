@@ -10,7 +10,7 @@ from creds import client_id, client_secret
 app = Flask(__name__)
 
 # Config
-callback = 'http://localhost:5000/auth/mlh/callback'
+callback = 'http://bostonhacks.io:5000/auth/mlh/callback'
 
 ######################## FOLDERS / FILES DATA ########################
 UPLOAD_FOLDER = 'attendee_data/'
