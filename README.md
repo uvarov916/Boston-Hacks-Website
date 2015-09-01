@@ -41,3 +41,9 @@ And you're set!
 client_id = ''
 client_secret = ''
 ```
+
+### How to run
+
+```
+python __init__.py
+```
