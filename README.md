@@ -14,8 +14,7 @@ You'll need to have the following items installed before continuing.
   * Get pip
   * [Flask](http://flask.pocoo.org/docs/0.10/) Run `pip install Flask`
   * `pip install requests`
-  * Add MLH credentials, client_id and client_secret, to creds_example.py
-  * `cp creds_example.py creds.py`
+  * Add MLH credentials, client_id and client_secret, to creds.py `vim creds.py`
 
 ## How to start
 
@@ -26,8 +25,8 @@ curl -O https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
 pip install Flask
 pip install requests
-# Add MLH credentials to creds_example.py
-cp creds_example.py creds.py
+# Add MLH credentials to creds.py
+vim creds.py
 ```
 
 While you're working on your project, run:
