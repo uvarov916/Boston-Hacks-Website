@@ -6,9 +6,12 @@
     <meta name="description" content="Boston Hacks - Oct 31 - Nov 1 @ Boston University">
     <meta name="author" content="The Boston Hacks Team">
     <title>Boston Hacks | Oct.31 - Nov.1</title>
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/added.css">
+    <!-- <link rel="icon" type="image/png" href="img/favicon.png"> -->
+    <!-- <link rel="stylesheet" href="css/app.css"> -->
+    <!-- <link rel="stylesheet" href="css/added.css"> -->
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/favicon.png') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/app.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/added.css') }}">
 
     <!-- Twitter metadata -->
     <meta property="twitter:card" content="summary">
@@ -25,8 +28,8 @@
     <meta property="og:image" content="https://bostonhacks.io/img/favicon.png">
     <meta property="og:url" content="https://bostonhacks.io/">
     <meta property="og:type" content="website">
-
-    <script src="bower_components/modernizr/modernizr.js"></script>
+<!--
+    <script src="bower_components/modernizr/modernizr.js"></script>-->
     <!-- TypeKit -->
     <script src="//use.typekit.net/kvl0hgw.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
@@ -39,16 +42,16 @@
           <div class="columns small-12 text-center">     
             <nav class="hide-for-small-only">
               <ul class="social-icons text-left columns medium-4 small-12">
-                <li><a href="https://twitter.com/boston_hacks" target="_blank"><img src="img/twitter.png"></a></li>
-                <li><a href="https://instagram.com/bostonhacks" target="_blank"><img src="img/instagram.png"></a></li>
-                <li><a href="https://www.facebook.com/bostonhacks" target="_blank"><img src="img/facebook.png"></a></li>
+                <li><a href="https://twitter.com/boston_hacks" target="_blank"><img src="{{ url_for('static', filename='img/twitter.png') }}"></a></li>
+                <li><a href="https://instagram.com/bostonhacks" target="_blank"><img src="{{ url_for('static', filename='img/instagram.png') }}"></a></li>
+                <li><a href="https://www.facebook.com/bostonhacks" target="_blank"><img src="{{ url_for('static', filename='img/facebook.png') }}"></a></li>
               </ul>
 
               <ul class="text-right columns medium-8" data-magellan-expedition data-options="destination_threshold:-60;" style="padding-right:20%; padding-left:0px;">
                 <li data-magellan-arrival="about"><a href="#about">About</a></li>
                 <li data-magellan-arrival="faq"><a href="#faq">FAQ</a></li>
                 <li data-magellan-arrival="sponsors"><a href="#sponsors">Sponsors</a></li>
-                <li data-magellan-arrival="application"><a href="#application">Attend</a></li>
+                <li data-magellan-arrival="application"><a href="/auth/mlh">Attend</a></li>
                 <li data-magellan-arrival="get-in-touch"><a href="#get-in-touch">Get in touch</a></li>
                 <a id="mlh-trust-badge" style="position:fixed;top:0;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000" href="https://mlh.io/?utm_campaign=Trust%20Badge" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/f2015.png" alt="MLH Official - Fall 2015" style="width:100%;" ></a>
 	      </ul>
@@ -80,7 +83,7 @@
 
               <h1 class="hide-for-small-only">Wanna build something amazing?</h1>
               <div class="header-buttons center" data-magellan-expedition data-options="destination_threshold:-100;">
-                <div style="display: inline-block;" data-magellan-arrival="application"><a href="#application" class="hvr-sweep-to-top">Attend</a></div>
+                <div style="display: inline-block;" data-magellan-arrival="application"><a href="/auth/mlh" class="hvr-sweep-to-top">Attend</a></div>
                 <div style="display: inline-block;" data-magellan-arrival="sponsors"><a data-magellan-arrival="sponsors" href="#sponsors" class="hvr-sweep-to-top">Sponsor</a></div>
               </div>
               <div class="boo"></div>
@@ -222,20 +225,20 @@
         </div>
 
         <div class ="company-logo columns small-6 medium-12" style="margin-bottom: 2.5rem;">
-          <a target = "_blank" href="http://microsoft.com"><img class="microsoft-logo" src="img/microsoft_logo.png"></a>
+          <a target = "_blank" href="http://microsoft.com"><img class="microsoft-logo" src="{{ url_for('static', filename='img/microsoft_logo.png') }}"></a>
         </div>
 
         <div class ="company-logo columns small-6 medium-3">
-          <a target = "_blank" href="http://kayak.com"><img class="kayak-logo" src="img/kayak_logo.png" height="25%"></a>
+          <a target = "_blank" href="http://kayak.com"><img class="kayak-logo" src="{{ url_for('static', filename='img/kayak_logo.png') }}" height="25%"></a>
         </div>
         <div class="company-logo columns small-6 medium-3">
-          <a target = "_blank" href="http://twilio.com"><img class="twilio-logo" src="img/twilio_logo.png" height="400px"></a>
+          <a target = "_blank" href="http://twilio.com"><img class="twilio-logo" src="{{ url_for('static', filename='img/twilio_logo.png') }}" height="400px"></a>
         </div>
         <div class="company-logo columns small-6 medium-3">
-          <a target = "_blank" href="http://google.com"><img class="google-logo" src="img/google_logo.png" height="400px"></a>
+          <a target = "_blank" href="http://google.com"><img class="google-logo" src="{{ url_for('static', filename='img/google_logo.png') }}" height="400px"></a>
         </div>
         <div class="company-logo columns small-6 medium-3">
-          <a target = "_blank" href="http://pebble.com"><img class="pebble-logo" src="img/pebble_logo.jpg" height="400px"></a>
+          <a target = "_blank" href="http://pebble.com"><img class="pebble-logo" src="{{ url_for('static', filename='img/pebble_logo.jpg') }}" height="400px"></a>
         </div>
 
       </div>
@@ -248,16 +251,16 @@
         </div>
 
         <div class="organizer-logo columns small-6 medium-3">
-          <a target="_blank" href="http://openwebbu.org/"><img class="openweb-logo" src="img/openweb-logo.png"></a>
+          <a target="_blank" href="http://openwebbu.org/"><img class="openweb-logo" src="{{ url_for('static', filename='img/openweb-logo.png') }}"></a>
         </div>
         <div class="organizer-logo columns small-6 medium-3">
-          <a target="_blank" href="https://www.facebook.com/makebu"><img class="makebu-logo" src="img/makebu-logo.png"></a>
+          <a target="_blank" href="https://www.facebook.com/makebu"><img class="makebu-logo" src="{{ url_for('static', filename='img/makebu-logo.png') }}"></a>
         </div>
         <div class="organizer-logo columns small-6 medium-3">
-          <a target="_blank" href="https://mlh.io/"><img class="mlh-logo" src="img/mlh-logo.png"></a>
+          <a target="_blank" href="https://mlh.io/"><img class="mlh-logo" src="{{ url_for('static', filename='img/mlh-logo.png') }}"></a>
         </div>
         <div class="organizer-logo columns small-6 medium-3">
-          <a target="_blank" href="http://builds.cc/"><img class="builds-logo" src="img/builds-logo.png"></a>
+          <a target="_blank" href="http://builds.cc/"><img class="builds-logo" src="{{ url_for('static', filename='img/builds-logo.png') }}"></a>
         </div>
 
       </div>
@@ -280,13 +283,13 @@
         <div class="columns small-8 medium-3 small-centered">
           <div class="row collapse">
             <div class="columns small-4">
-              <a class="twitter" target="_blank" href="https://twitter.com/boston_hacks"><img src="img/twitter-circle.png"></a>
+              <a class="twitter" target="_blank" href="https://twitter.com/boston_hacks"><img src="{{ url_for('static', filename='img/twitter-circle.png') }}"></a>
             </div>
             <div class="columns small-4">
-              <a class="instagram" target="_blank" href="https://instagram.com/bostonhacks"><img src="img/instagram-circle.png"></a>
+              <a class="instagram" target="_blank" href="https://instagram.com/bostonhacks"><img src="{{ url_for('static', filename='img/instagram-circle.png') }}"></a>
             </div>
             <div class="columns small-4">
-              <a class="facebook" target="_blank" href="https://www.facebook.com/bostonhacks"><img src="img/facebook-circle.png"></a>
+              <a class="facebook" target="_blank" href="https://www.facebook.com/bostonhacks"><img src="{{ url_for('static', filename='img/facebook-circle.png') }}"></a>
             </div>
           </div>
         </div>
@@ -297,10 +300,10 @@
       <span class="copyright text-center">Made with <span id="heart">&hearts;</span> by the Boston Hacks Team.</span>
     </footer>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
-    <script src="js/app.js"></script>
+<!--     // <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    // <script src="bower_components/foundation/js/foundation.min.js"></script>
+    // <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+    // <script src="js/app.js"></script> -->
 
     <!-- Google Analytics script -->
     <script>
