@@ -253,7 +253,6 @@ header .hackathon-logo {
   text-align: center;
   font-size: 3em;
   line-height: 78px;
-  transform: skew(0, -5deg);
 }
 
 .banner .line:after,
