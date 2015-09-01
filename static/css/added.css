@@ -234,3 +234,179 @@ header .hackathon-logo {
   top: 20%;
   transform: translateY(-50%);
 }
+
+/* Fire Animation */
+
+.firepit {
+  bottom: 0;
+  margin-left: 47%;
+}
+
+.fire {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.fire .flame {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: .9;
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 70%;
+  border-bottom-left-radius: 70%;
+  border-top-left-radius: 70%;
+  transform: rotate(-45deg) skew(-10deg, -10deg);
+  background-color: #ff2200;
+  background-image: linear-gradient(to bottom left, rgba(255, 34, 0, 0.9), rgba(255, 106, 0, 0.7));
+  z-index: 1;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-name: burn-left;
+  animation-duration: 300ms;
+}
+.fire .flame:nth-of-type(2n) {
+  animation-name: burn-right;
+  animation-duration: 400ms;
+}
+.fire .flame:nth-of-type(2) {
+  height: 80%;
+  width: 80%;
+  left: 10%;
+  background-color: #ff6a00;
+  background-image: linear-gradient(to bottom left, rgba(255, 106, 0, 0.1), rgba(255, 200, 0, 0.1));
+  z-index: 2;
+}
+.fire .flame:nth-of-type(3) {
+  height: 50%;
+  width: 50%;
+  left: 25%;
+  background-image: linear-gradient(to bottom left, #ffc800, #ffffff);
+  z-index: 3;
+}
+.fire .flame:nth-of-type(4) {
+  height: 30%;
+  width: 30%;
+  left: 35%;
+  background-color: white;
+  background-image: linear-gradient(to bottom left, rgba(255, 255, 255, 0.3), rgba(0, 55, 255, 0.9));
+  opacity: 1;
+  z-index: 4;
+}
+
+.spark {
+  position: absolute;
+  bottom: 46%;
+  left: 15%;
+  width: 3px;
+  height: 3px;
+  background-color: rgba(255, 106, 0, 0.4);
+  animation-name: fly-up-burnout-1;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: .4s;
+}
+.spark:nth-of-type(2n) {
+  animation-name: fly-up-burnout-2;
+  animation-duration: 8.4s;
+  animation-delay: 1s;
+}
+.spark:nth-of-type(3n) {
+  animation-delay: 1.9s;
+  animation-duration: 8s;
+  left: 55%;
+}
+.spark:nth-of-type(4n) {
+  animation-delay: 2.6s;
+  animation-duration: 7s;
+  left: 88%;
+}
+.spark:nth-of-type(5n) {
+  animation-delay: 1.4s;
+  animation-duration: 7s;
+  left: 22%;
+}
+.spark:nth-of-type(6n) {
+  animation-delay: 3.2s;
+  left: 61%;
+}
+.spark:nth-of-type(7n) {
+  animation-delay: .8s;
+  animation-duration: 5s;
+  left: 64%;
+}
+.spark:nth-of-type(8n) {
+  animation-delay: 5s;
+  left: 19%;
+}
+.spark:nth-of-type(9n) {
+  animation-delay: 4s;
+  animation-duration: 6.8s;
+  left: 22%;
+}
+.spark:nth-of-type(10n) {
+  animation-delay: 5.2s;
+  left: 61%;
+}
+.spark:nth-of-type(11n) {
+  animation-delay: 3.5s;
+  animation-duration: 8s;
+  left: 81%;
+}
+.spark:nth-of-type(12n) {
+  animation-delay: 2s;
+  left: 85%;
+}
+
+@keyframes burn-left {
+  0%, 100% {
+    transform: rotate(-45deg) skew(-10deg, -10deg) scale(1);
+  }
+  30%, 60% {
+    transform: rotate(-44deg) skew(-12deg, -12deg) scale(1.01);
+  }
+}
+@keyframes burn-right {
+  0%, 100% {
+    transform: rotate(-45deg) skew(-10deg, -10deg) scale(1);
+  }
+  30%, 60% {
+    transform: rotate(-46deg) skew(-6deg, -6deg) scale(1.01);
+  }
+}
+@keyframes fly-up-burnout-1 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  33% {
+    transform: translate(12px, -70px);
+  }
+  66% {
+    transform: translate(0, -140px);
+    opacity: .6;
+  }
+  100% {
+    transform: translate(6px, -200px);
+    opacity: 0;
+  }
+}
+@keyframes fly-up-burnout-2 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-10px, -80px);
+  }
+  80% {
+    transform: translate(-4px, -140px);
+    opacity: .6;
+  }
+  100% {
+    transform: translate(-6px, -160px);
+    opacity: 0;
+  }
+}

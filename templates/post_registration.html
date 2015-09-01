@@ -5,8 +5,8 @@
     <title>Almost done!</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Boston Hacks - Oct 31 - Nov 1 @ Boston University">
-    <meta name="author" content="The Boston Hacks Team">
+    <meta name="description" content="BostonHacks - Oct 31 - Nov 1 @ Boston University">
+    <meta name="author" content="The BostonHacks Team">
 
     <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/favicon.png') }}">
     <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/dropbox.css') }}">
@@ -41,7 +41,7 @@
     <section id="content">
         <form action="/post_registration/thanks" method="post" enctype=multipart/form-data>
             <div class="columns small-12 text-center">
-                <h3> Will you be requiring travel reimbursements?</h3> 
+                <h3>Will you be requiring travel reimbursements?</h3> 
 
                 <input type="radio" name="reimbursements" value="yes" id="reimburseN" required><label>Yes</label>
                 <input type="radio" name="reimbursements" value="no" id="reimburseY" required><label>No</label>
@@ -63,13 +63,13 @@
                 </script>
             </div>
             <div class="small-12 text-center">
-                <h3> What's something awesome you've made in the last 6 months? </h3>
+                <h3>What's something awesome you've made in the last 6 months? </h3>
                 <textarea cols="40" rows="5" name="awesome" required></textarea>
 
             </div>
 
             <div class="small-12 text-center">
-                <h3> Please <span id="contactColor">drag</span> a copy of your resume into the box: </h3>
+                <h3>Please <span id="contactColor">drag</span> a copy of your resume into the box: </h3>
                 <div id="dropbox" required>
                 </div>
             <br>
