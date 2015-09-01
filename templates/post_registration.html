@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Almost done!</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boston Hacks - Oct 31 - Nov 1 @ Boston University">
+    <meta name="author" content="The Boston Hacks Team">
+
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/favicon.png') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/dropbox.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/registration.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/added.css') }}">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> 
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.filedrop.js') }}"></script> 
+    <script type="text/javascript" src="{{ url_for('static', filename='js/upload.js') }}"></script> 
+    <!-- TypeKit -->
+    <script src="//use.typekit.net/kvl0hgw.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
+</head>
+
+ <body>
+    <header>
+      <div class="overlay">
+        <div class="row">
+          <div class="columns small-12 text-center">
+            <div style="margin-top: 2rem;">
+                <div class="hackathon-logo center"></div>
+                <div class="gshadow"></div>
+            </div>
+            <h1 class="hide-for-small-only">Just a few more questions..</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+<div class="container">
+    <section id="content">
+        <form action="/post_registration/thanks" method="post" enctype=multipart/form-data>
+            <div class="columns small-12 text-center">
+                <h3> Will you be requiring travel reimbursements?</h3> 
+
+                <input type="radio" name="reimbursements" value="yes" id="reimburseN" required><label>Yes</label>
+                <input type="radio" name="reimbursements" value="no" id="reimburseY" required><label>No</label>
+                <br><br>
+
+                <div id="where" hidden="true">
+                    <label>Where will you be coming from?</label>
+                    <input type="text" name="whereReimbursements">
+                    <br><br><br>
+                </div>
+                <script>
+                $('input[name=reimbursements]').click(function() {
+                    if (this.value === "yes") {
+                        $('#where').show();
+                    } else {
+                        $('#where').hide();
+                    };
+                });
+                </script>
+            </div>
+            <div class="small-12 text-center">
+                <h3> What's something awesome you've made in the last 6 months? </h3>
+                <textarea cols="40" rows="5" name="awesome" required></textarea>
+
+            </div>
+
+            <div class="small-12 text-center">
+                <h3> Please drag a copy of your resume into the box: </h3>
+                <div id="dropbox" required>
+                </div>
+            <br>
+            </div>
+            <div class="small-12 text-center">
+                <input type="submit" value="Submit" name="Submit" id="supersubmit">
+            </div>
+        </form>
+    </section><!-- content -->
+</div><!-- container -->
+</body>
+</html>
+

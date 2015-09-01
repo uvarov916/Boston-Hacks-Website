@@ -228,3 +228,9 @@ header .hackathon-logo {
   animation: floatghosts 1s infinite alternate;
   border-radius: 100% ;
 }
+
+.thanks {
+  position: relative;
+  top: 20%;
+  transform: translateY(-50%);
+}

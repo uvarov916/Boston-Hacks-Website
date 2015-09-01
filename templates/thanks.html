@@ -1,0 +1,40 @@
+<html lang='en'>
+<head>
+    <meta charset="utf-8" />
+    <title>Hello</title>
+
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/favicon.png') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/registration.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/added.css') }}">
+
+</head>
+{% if error %}
+    {{ error }}
+{% endif %}
+<body>
+
+    <header>
+      <div class="overlay">
+        <div class="thanks">
+          <div class="columns small-12 text-center">
+            <a href="https://bostonhacks.io">
+                <div>
+                    <div class="hackathon-logo center"></div>
+                    <div class="gshadow"></div>
+                </div>
+            </a>
+            <h1 class="hide-for-small-only">Thanks for Signing up! </h1> 
+
+            <h2>
+                <span id="thanksOpacity"> For questions, contact us at </span>
+                <a href="mailto:contact@bostonhacks.io" target="_top">
+                    <span id="contactColor"> contact@bostonhacks.io</span>
+                </a>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+</body>
+</html>
