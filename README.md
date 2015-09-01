@@ -36,6 +36,9 @@ While you're working on your project, run:
 
 And you're set!
 
-## Directory Structure
+## creds.py
 
-...
+```
+client_id = ''
+client_secret = ''
+```
