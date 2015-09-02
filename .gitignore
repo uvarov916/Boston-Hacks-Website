@@ -5,3 +5,4 @@ config.codekit
 creds.py
 *.pyc
 attendee_data/
+.DS_Store
