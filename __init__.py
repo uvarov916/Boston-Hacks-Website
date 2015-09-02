@@ -14,8 +14,8 @@ callback = 'http://bostonhacks.io:5000/auth/mlh/callback'
 # callback = 'http://localhost:5000/auth/mlh/callback'
 
 ######################## FOLDERS / FILES DATA ########################
-# UPLOAD_FOLDER = '/var/www/bostonhacks/bostonhacks/attendee_data/'
-UPLOAD_FOLDER = 'attendee_data/'
+UPLOAD_FOLDER = '/var/www/bostonhacks/bostonhacks/attendee_data/'
+# UPLOAD_FOLDER = 'attendee_data/'
 app = Flask(__name__)
 
 file_types = ['pdf', 'png', 'jpg', 'jpeg', 'gif']
