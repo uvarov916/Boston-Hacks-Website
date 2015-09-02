@@ -13,7 +13,7 @@ app = Flask(__name__)
 callback = 'http://bostonhacks.io:5000/auth/mlh/callback'
 
 ######################## FOLDERS / FILES DATA ########################
-UPLOAD_FOLDER = 'attendee_data/'
+UPLOAD_FOLDER = '/var/www/bostonhacks/bostonhacks/attendee_data/'
 app = Flask(__name__)
 
 file_types = ['pdf', 'png', 'jpg', 'jpeg', 'gif']
@@ -99,7 +99,7 @@ def auth_with_provider_callback():
         user_email = user_info['data']['email']
         if os.path.exists("{}/{}/user_info.txt".format(UPLOAD_FOLDER, user_email)) != True:
             if os.path.isdir("{}/{}".format(UPLOAD_FOLDER, user_email)) != True:
-                os.makedirs("{}/{}".format(UPLOAD_FOLDER, user_email))
+            	os.makedirs("{}/{}".format(UPLOAD_FOLDER, user_email))
             return render_template('post_registration.html')
         else:
             return render_template('thanks.html')
@@ -125,4 +125,4 @@ def post_registration():
     return "incorrect request"
 
 if __name__ == '__main__':
-  app.run(threaded=True)
+  app.run(host='0.0.0.0', threaded=True)

@@ -3,5 +3,5 @@ npm-debug.log
 node_modules/
 config.codekit
 creds.py
-creds.pyc
+*.pyc
 attendee_data/
