@@ -255,42 +255,6 @@ header .hackathon-logo {
   line-height: 78px;
 }
 
-.banner .line:after,
-.banner .line:first-child:before {
-  position: absolute;
-  top: 44px;
-  left: 0;
-  z-index: -1;
-  display: block;
-  width: 330px;
-  height: 78px;
-  border-radius: 4px;
-  background: rgba(180, 180, 180, 0.8);
-  content: '';
-  transform: skew(0, 15deg);
-}
-
-.banner .line:first-child:before {
-  top: -10px;
-  right: 0;
-  left: auto;
-}
-
-.banner .line:first-child:before,
-.banner .line:last-child:after {
-  width: 0;
-  height: 0;
-  border-width: 38px;
-  border-style: solid;
-  border-color: rgba(180, 180, 180, 0.8) rgba(180, 180, 180, 0.8) transparent transparent;
-  background: transparent;
-}
-
-.banner .line:last-child:after {
-  top: 12px;
-  border-color: transparent transparent rgba(180, 180, 180, 0.8) rgba(180, 180, 180, 0.8);
-}
-
 .banner span {
   display: block;
   width: 100%;
@@ -303,9 +267,31 @@ header .hackathon-logo {
 
 /* Fire Animation */
 
+@media only screen and (max-width: 43em) {
+  .firepit {
+    bottom: 0;
+    margin-left: 50%;
+  }
+  img#pumpkin{
+    position: absolute;
+    z-index: 200;
+    margin-top: -70px;
+    height: 150px;
+    margin-left: 39.5%;
+  }
+}
+
+#pumpkin{
+  position: absolute;
+  height: 200px;
+  margin-left: 41.5%;
+  z-index: 200;
+  margin-top: -120px;
+}
+
 .firepit {
   bottom: 0;
-  margin-left: 47%;
+  margin-left: 46.5%;
 }
 
 .fire {
