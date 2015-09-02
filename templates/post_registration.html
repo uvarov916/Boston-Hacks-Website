@@ -40,6 +40,23 @@
 <div class="container">
     <section id="content">
         <form action="/post_registration/thanks" method="post" enctype=multipart/form-data>
+            <div style="width: 600px; margin: 0 auto;">
+                <div class="columns small-6">
+                    <ul>
+                    {%for key in data%}
+                        <li style="list-style: none">{{key}}</li>
+                    {%endfor%}
+                    </ul>
+                </div>
+                
+                <div class="columns small-6">
+                    <ul>
+                    {%for key, value in data.iteritems()%}
+                        <li style="list-style: none">{{value}}</li>
+                    {%endfor%}
+                    </ul>
+                </div>
+            </div>
             <div class="columns small-12 text-center">
                 <h3>Will you be requiring travel reimbursements?</h3> 
 

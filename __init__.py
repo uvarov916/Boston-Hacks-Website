@@ -11,9 +11,11 @@ app = Flask(__name__)
 
 # Config
 callback = 'http://bostonhacks.io:5000/auth/mlh/callback'
+# callback = 'http://localhost:5000/auth/mlh/callback'
 
 ######################## FOLDERS / FILES DATA ########################
-UPLOAD_FOLDER = '/var/www/bostonhacks/bostonhacks/attendee_data/'
+# UPLOAD_FOLDER = '/var/www/bostonhacks/bostonhacks/attendee_data/'
+UPLOAD_FOLDER = 'attendee_data/'
 app = Flask(__name__)
 
 file_types = ['pdf', 'png', 'jpg', 'jpeg', 'gif']
@@ -97,10 +99,37 @@ def auth_with_provider_callback():
 
         user_info = fetch_user(resp.json()['access_token'])
         user_email = user_info['data']['email']
+        dictionary = {}
+        for key, value in user_info['data'].iteritems():
+            if(key == "phone_number"):
+                dictionary["Phone number"] = value
+            if(key == "first_name"):
+                dictionary["First name"] = value
+            if(key == "last_name"):
+                dictionary["Last name"] = value
+            if(key == "dietary_restrictions"):
+                dictionary["Diet restrictions"] = value
+            if(key == "gender"):
+                dictionary["Gender"] = value
+            if(key == "graduation"):
+                dictionary["Graduation"] = value
+            if(key == "email"):
+                dictionary["Email"] = value
+            if(key == "school"):
+                dictionary["School"] = value['name']
+            if(key == "date_of_birth"):
+                dictionary["Date of birth"] = value
+            if(key == "special_needs"):
+                dictionary["Special needs"] = value
+            if(key == "shirt_size"):
+                dictionary["Shirt size"] = value
+            if(key == "major"):
+                dictionary["Major"] = value
+        print(user_email)
         if os.path.exists("{}/{}/user_info.txt".format(UPLOAD_FOLDER, user_email)) != True:
             if os.path.isdir("{}/{}".format(UPLOAD_FOLDER, user_email)) != True:
             	os.makedirs("{}/{}".format(UPLOAD_FOLDER, user_email))
-            return render_template('post_registration.html')
+            return render_template('post_registration.html', data=dictionary)
         else:
             return render_template('thanks.html')
     else:
@@ -123,6 +152,16 @@ def post_registration():
     else:
         return "Please upload a file of type: " + str(', '.join(file_types))
     return "incorrect request"
+
+@app.route('/logout', methods=['GET', 'POST'])
+def logout():
+    """
+    Preliminary logout button in the works.
+    """
+    if request.method == 'POST':
+        base_url = "https://my.mlh.io/logout"
+        resp = requests.post(base_url)
+        return redirect('/')
 
 if __name__ == '__main__':
   app.run()
