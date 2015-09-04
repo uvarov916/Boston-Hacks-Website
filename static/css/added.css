@@ -87,15 +87,31 @@ section#organizers {
 	margin-top: -10rem;
 }
 
+section#schedule {
+  margin-top: -10rem;
+}
+
+.schedule-header{
+  width: 70%;
+  color: #E91E63;
+}
+
+.schedule-table{
+  width: 40%;
+}
+
 /*Leaving a comment where Andrew grotesquely added CSS instead of editing the SCSS.*/
 @media only screen and (max-width: 43em) {
   html.touch { 
  	overflow-x: hidden;
   }
   section#sponsors div.company-logo img{
-      padding-bottom: 1.5rem; }
+    padding-bottom: 1.5rem; }
   section#organizers div.organizer-logo img{
 	  padding-bottom: 1.5rem; }
+  .organizer-header{
+    margin-top: 5rem;
+  }
   section#facts .slant {
   	width: 100%;
   	display: none;
@@ -103,6 +119,15 @@ section#organizers {
   section#application .slant {
   	width: 100%;
   	display: none;
+  }
+  .more-questions-link{
+    margin-bottom: 5rem;
+  }
+  .schedule-table{
+    width: 70%;
+  }
+  .schedule-header{
+    width: 70%;
   }
 }
 
