@@ -37,6 +37,8 @@ And you're set!
 
 ## creds.py
 
+You must create a creds.py file for the Flask application to be able to run. Insert your https://my.mlh.com application credentials into the empty '' sections.
+
 ```
 client_id = ''
 client_secret = ''
