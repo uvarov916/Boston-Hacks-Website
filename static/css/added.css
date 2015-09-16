@@ -81,9 +81,21 @@ section#sponsors div.company-logo img {
 section#sponsors div.company-logo img.microsoft-logo {
   max-height: 8rem; }
 section#sponsors div.company-logo img.capitalone-logo {
-  max-height: 6rem; }
+  max-height: 8rem; }
+section#sponsors div.company-logo img.hp-logo {
+  max-height: 8rem; }
 section#sponsors div.company-logo img.bucs-logo {
-  max-height: 10rem; }
+  max-height: 4rem; }
+section#sponsors div.company-logo img.kayak-logo {
+  max-height: 4rem; }
+section#sponsors div.company-logo img.twilio-logo {
+  max-height: 4rem; }
+section#sponsors div.company-logo img.google-logo {
+  max-height: 4rem; }
+section#sponsors div.company-logo img.bloomberg-logo {
+  max-height: 4rem; }
+section#sponsors div.company-logo img.1517-logo {
+  max-height: 4rem; }
 
 section#organizers {
 	margin-top: -10rem;
