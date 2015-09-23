@@ -85,12 +85,13 @@ section#sponsors div.company-logo img.capitalone-logo {
 section#sponsors div.company-logo img.hp-logo {
   max-height: 8rem; }
 section#sponsors div.company-logo img.bucs-logo {
-  max-height: 5rem; }
-section#sponsors div.company-logo img.citi-logo {
+  max-height: 8rem; }
+section#sponsors div.company-logo img.libertymutual-logo {
   max-height: 8rem; }
 section#sponsors div.company-logo img.hitachi-logo {
-  padding-top: 2rem;
-  max-height: 8rem; }
+  height: 8rem; }
+section#sponsors div.company-logo img.citi-logo {
+  max-height: 4rem; }
 section#sponsors div.company-logo img.kayak-logo {
   max-height: 4rem; }
 section#sponsors div.company-logo img.twilio-logo {
@@ -98,6 +99,9 @@ section#sponsors div.company-logo img.twilio-logo {
 section#sponsors div.company-logo img.google-logo {
   max-height: 4rem; }
 section#sponsors div.company-logo img.bloomberg-logo {
+  height: 4rem;
+  padding-bottom: 1rem; }
+section#sponsors div.company-logo img.ge-logo {
   max-height: 4rem; }
 section#sponsors div.company-logo img.1517-logo {
   max-height: 4rem; }
@@ -150,6 +154,11 @@ section#schedule {
   .schedule-header{
     width: 70%;
   }
+
+  section#sponsors div.company-logo img.hitachi-logo {
+    max-height: 3rem; }
+  section#sponsors div.company-logo img.bloomberg-logo {
+    max-height: 3rem; }
 }
 
 /* Re-coloring the heart to pinkish color */
