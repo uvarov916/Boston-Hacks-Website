@@ -88,13 +88,17 @@ section#sponsors div.company-logo img.bucs-logo {
   max-height: 8rem; }
 section#sponsors div.company-logo img.libertymutual-logo {
   max-height: 8rem; }
+section#sponsors div.company-logo img.epic-logo {
+  max-height: 8rem; }
 section#sponsors div.company-logo img.hitachi-logo {
-  height: 8rem; }
+  max-height: 8rem; }
 section#sponsors div.company-logo img.citi-logo {
   max-height: 4rem; }
 section#sponsors div.company-logo img.kayak-logo {
   max-height: 4rem; }
 section#sponsors div.company-logo img.twilio-logo {
+  max-height: 4rem; }
+section#sponsors div.company-logo img.mitre-logo {
   max-height: 4rem; }
 section#sponsors div.company-logo img.google-logo {
   max-height: 4rem; }
@@ -156,9 +160,9 @@ section#schedule {
   }
 
   section#sponsors div.company-logo img.hitachi-logo {
-    max-height: 3rem; }
+   }
   section#sponsors div.company-logo img.bloomberg-logo {
-    max-height: 3rem; }
+   }
 }
 
 /* Re-coloring the heart to pinkish color */
